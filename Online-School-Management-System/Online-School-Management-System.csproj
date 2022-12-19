@@ -71,6 +71,9 @@
     <Content Include="Assets\Images\student-xl.png" />
     <Content Include="Assets\Images\teacher.png" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Admin\Departmets.aspx" />
+    <Content Include="Views\Admin\Marks.aspx" />
+    <Content Include="Views\Admin\Schedules.aspx" />
     <Content Include="Views\Admin\Students.aspx" />
     <Content Include="Views\Admin\Teachers.aspx" />
     <Content Include="Web.config" />
@@ -79,6 +82,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Functions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Admin\AdminMaster.Master.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
@@ -86,6 +90,27 @@
     </Compile>
     <Compile Include="Views\Admin\AdminMaster.Master.designer.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Departmets.aspx.cs">
+      <DependentUpon>Departmets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Departmets.aspx.designer.cs">
+      <DependentUpon>Departmets.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Marks.aspx.cs">
+      <DependentUpon>Marks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Marks.aspx.designer.cs">
+      <DependentUpon>Marks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Schedules.aspx.cs">
+      <DependentUpon>Schedules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Schedules.aspx.designer.cs">
+      <DependentUpon>Schedules.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Admin\Students.aspx.cs">
       <DependentUpon>Students.aspx</DependentUpon>
@@ -115,7 +140,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Assets\Lib\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Studnets\" />
   </ItemGroup>
   <PropertyGroup>

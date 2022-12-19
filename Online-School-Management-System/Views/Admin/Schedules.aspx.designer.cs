@@ -11,62 +11,80 @@ namespace Online_School_Management_System.Views.Admin
 {
 
 
-    public partial class Teachers
+    public partial class Schedules
     {
 
         /// <summary>
-        /// txtTeacherName control.
+        /// DepCb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtTeacherName;
+        protected global::System.Web.UI.WebControls.DropDownList DepCb;
 
         /// <summary>
-        /// txtTeacherEmail control.
+        /// DqyCb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtTeacherEmail;
+        protected global::System.Web.UI.WebControls.DropDownList DqyCb;
 
         /// <summary>
-        /// txtTeacherDOB control.
+        /// Sub1Cb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtTeacherDOB;
+        protected global::System.Web.UI.WebControls.DropDownList Sub1Cb;
 
         /// <summary>
-        /// txtTeacherSalary control.
+        /// Sub2Cb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtTeacherSalary;
+        protected global::System.Web.UI.WebControls.DropDownList Sub2Cb;
 
         /// <summary>
-        /// txtPassword control.
+        /// Sub3Cb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtPassword;
+        protected global::System.Web.UI.WebControls.DropDownList Sub3Cb;
 
         /// <summary>
-        /// edit control.
+        /// Sub4Cb control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button edit;
+        protected global::System.Web.UI.WebControls.DropDownList Sub4Cb;
+
+        /// <summary>
+        /// Sub5Cb control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Sub5Cb;
+
+        /// <summary>
+        /// Edit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Edit;
 
         /// <summary>
         /// Save control.
@@ -78,21 +96,21 @@ namespace Online_School_Management_System.Views.Admin
         protected global::System.Web.UI.WebControls.Button Save;
 
         /// <summary>
-        /// delete control.
+        /// Delete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button delete;
+        protected global::System.Web.UI.WebControls.Button Delete;
 
         /// <summary>
-        /// TeachersGrid control.
+        /// SchedualeGrid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView TeachersGrid;
+        protected global::System.Web.UI.WebControls.GridView SchedualeGrid;
     }
 }
