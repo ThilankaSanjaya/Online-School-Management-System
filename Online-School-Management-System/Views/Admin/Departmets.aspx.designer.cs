@@ -11,88 +11,61 @@ namespace Online_School_Management_System.Views.Admin
 {
 
 
-    public partial class Teachers
+    public partial class Departmets
     {
 
         /// <summary>
-        /// txtTeacherName control.
+        /// txtDepName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtTeacherName;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtDepName;
 
         /// <summary>
-        /// txtTeacherEmail control.
+        /// txtRemarks control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtTeacherEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtRemarks;
 
         /// <summary>
-        /// txtTeacherDOB control.
+        /// Depedit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl txtTeacherDOB;
+        protected global::System.Web.UI.WebControls.Button Depedit;
 
         /// <summary>
-        /// txtTeacherSalary control.
+        /// DepSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtTeacherSalary;
+        protected global::System.Web.UI.WebControls.Button DepSave;
 
         /// <summary>
-        /// txtPassword control.
+        /// Depdelete control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtPassword;
+        protected global::System.Web.UI.WebControls.Button Depdelete;
 
         /// <summary>
-        /// edit control.
+        /// DepartmentGrid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button edit;
-
-        /// <summary>
-        /// Save control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Save;
-
-        /// <summary>
-        /// delete control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button delete;
-
-        /// <summary>
-        /// TeachersGrid control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView TeachersGrid;
+        protected global::System.Web.UI.WebControls.GridView DepartmentGrid;
     }
 }
